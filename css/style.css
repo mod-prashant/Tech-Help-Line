@@ -1,0 +1,277 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em; 
+	background-color: white;
+	background-position: center top;
+}
+
+a, a:link, a:visited { 
+	color: #1b85d7; 
+	font-weight: normal; 
+	text-decoration: none; 
+	font-size: 12px; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+
+a.more:hover { 
+	color: #d99e01; 
+}
+
+p { 
+	margin: 0 0 10px 0; 
+	padding: 0; 
+}
+
+img { 
+	border: none; 
+}
+
+blockquote { 
+	font-style: italic; 
+	margin: 0 0 15px 10px;
+}
+
+cite { 
+	font-weight: bold; 
+	color:#1b85d7; 
+	font-size: 12px; 
+}
+
+cite span { 
+	color: #1b85d7;
+}
+
+em { color: #ff9e05; }
+
+h1, h2, h3, h4, h5, h6 { color: #063c65; font-weight: normal; }
+h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
+h2 { font-size: 28px; margin: 0 0 25px; padding: 5px 0; }
+h3 { font-size: 22px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 16px; color: #666; margin: 0 0 15px; padding: 0; }
+h4 span { display: block; color: #063c65;  font-size: 24px }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.erase_all { clear: both }
+.x10 { height: 10px }
+.x20 { height: 20px }
+.x30 { height: 30px }
+.x40 { height: 40px }
+.x50 { height: 50px }
+.x60 { height: 60px }
+
+.float-r { float: right }
+
+.float-l { float: left }
+
+.image_fl { 
+	float: left; 
+	margin: 3px 30px 0 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 30px; 
+}
+
+.list { 
+	margin: 20px 0 20px 15px; 
+	padding: 0; 
+	list-style: disc; 
+}
+
+.list li { 
+	color:#ff9e05; 
+	margin: 0; 
+    list-style-type: none;
+}
+
+.list li a { 
+	color: #ff9e05; 
+	font-weight: normal; 
+	font-size: 12px; 
+	text-decoration:none; 
+}
+
+.list li a:hover { 
+    color: black;
+	text-decoration: underline; 
+}
+
+#base {
+	width: auto;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+#header {
+	width:auto;
+	height: 134px;
+	padding: 0 30px 0 20px;
+    color: aliceblue;
+	background-color: rgba(0,0,204,0.8);
+}
+
+#title { 
+	float: left; 
+}
+
+#title h1 { 
+	margin: 0; 
+	padding: 0; 
+    color: aliceblue;
+}
+
+#title h1 a { 
+	display: block; 
+	width: 325px; 
+	height: 135px; 
+	color:#fff; 
+	text-indent: -10000px; 
+	background: url(../images/logo.png) no-repeat center center; 
+}
+
+/* menu' */
+
+#menu {
+	float: right;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	display: block;
+	width: 100px;
+	height: 30px;
+	padding-top: 24px;
+	margin-left: 5px;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+	border: none;
+	background: url(../images/button.jpg) bottom no-repeat;
+}
+
+#menu ul li a:hover, #menu ul .current {
+	height: 34px;
+	padding-top: 20px;
+	color: #fff;
+	background:  url(../images/button-h.jpg) bottom no-repeat;
+}
+
+/* menu" */
+
+
+#mid {
+	clear: both;
+	width: auto;
+	height: 150px;
+	padding: 40px 60px 40px 40px;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFF;
+	background: url(../images/abc.jpg) repeat bottom center;	
+}
+
+#mid h2 {
+	color: #e1f2f7;
+}
+
+
+
+#content {
+    text-align: center;
+	clear: both;
+	position: relative;
+	width: auto;
+	padding: 40px 60px 40px 40px;
+}
+
+#content span.content_top { 
+	position: absolute; 
+	background-color: floralwhite;
+	width: auto; 
+	height: 20px; 
+	top: 0; 
+	left: 0; 
+}
+
+.center{
+    text-align: center;
+    float: center;
+}
+
+.bt1 { 
+    float:left;
+	width: 260px;
+	padding: 10px;
+}
+
+.bt1 a{
+    
+    border-bottom-width: medium;
+    border-color: dodgerblue;
+}
+
+.bt1 a:hover{
+    display: block;
+
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+	border: none;
+}
+
+.img_s{
+    height: 20px;
+    width: 30px;
+    text-align: right;
+}
+
+.bt2 {
+	width: auto;
+}
+    
+}
+
+.rmb { 
+	margin-right: 0; 
+}
+
+#footer {
+	clear: both;
+	width: auto;
+	height: 63px;
+	text-align: center; 
+	color: #000;
+	padding: 10px 60px 0 40px;
+}
+
+#footer a { color:cornflowerblue; text-decoration: none }
