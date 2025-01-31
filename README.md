@@ -13,8 +13,8 @@
 
 ## Links
 
-- [Solution Repository](https://github.com/mod-prashant/Blog-preview-card)
-- [Live Demo][Add live site URL here](https://blog-preview-card-fawn-beta.vercel.app/)
+- [Solution Repository](https://github.com/mod-prashant/Tech-Help-Line)
+- [Live Demo](https://tech-help-line.vercel.app/)
 
 ## Built with
 
