@@ -18,9 +18,8 @@
 
 ## Built with
 
-- Semantic
+- HTML
 - CSS
-- Java Script
 
 ## Author
 
